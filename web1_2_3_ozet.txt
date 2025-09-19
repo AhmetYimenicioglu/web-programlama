@@ -1,0 +1,94 @@
+ Web 1.0 – Statik ve Okuma Odaklı Web 
+
+Web 1.0, internetin ilk dönemidir ve bu dönemde web siteleri yalnızca bilgi sunmak için kullanılıyordu. Kullanıcılar sadece sayfalardaki içerikleri okuyabilir, ama içerikle hiçbir şekilde etkileşime geçemezdi.
+
+Bu dönemde sayfalar statikti. Yani bir sayfa bir kez oluşturulup internete yüklendiğinde, sonradan güncellenmeden uzun süre yayında kalırdı. Web siteleri genellikle yalnızca şirket bilgileri, kişisel tanıtım sayfaları veya temel haber içeriklerinden oluşurdu.
+
+Kullanıcıların içerik üretme veya yorum yapma imkânı yoktu. Sosyal medya, bloglar, forumlar gibi araçlar henüz ortada yoktu. Sadece geliştiriciler ya da web yöneticileri içerik yükleyebilirdi.
+
+ Özellikler:
+
+Statik  HTML sayfaları
+
+Sadece okunabilir içerik
+
+Etkileşim ve yorum özelliği yok
+
+Ziyaretçi, pasif kullanıcı konumunda
+
+Veriler merkezde tutulur ama kullanıcı katkısı olmaz
+
+ Örnekler:
+
+Şirket tanıtım sayfaları
+
+Kişisel bloglar 
+
+Online ansiklopediler 
+
+
+
+ Web 2.0 – Etkileşimli ve Sosyal Web 
+
+Web 2.0, internetin ikinci evresidir ve bugünkü internet deneyimimizin temelini oluşturur. Bu dönemde internet sadece bilgi almak için değil, aynı zamanda içerik üretmek, paylaşmak ve sosyalleşmek için de kullanılmaya başlandı.
+
+Bu dönemin en büyük özelliği, kullanıcının aktif hale gelmesidir. Yani kullanıcılar artık sadece okuyan değil, yazan, paylaşan, yorum yapan, hatta içerik üreten bireyler haline geldi. Sosyal medya, bloglar, forumlar, YouTube gibi platformlar bu dönemin ürünüdür.
+
+Ayrıca web sayfaları dinamik hale geldi. Sayfalar, kullanıcı davranışlarına göre şekillenebiliyor, içerikler sürekli güncellenebiliyor. Aynı zamanda mobil uygulamalar, bulut servisleri, e-ticaret siteleri gibi platformlar da bu dönemde yaygınlaştı.
+
+Ancak bu dönemin bir dezavantajı var: veri kontrolü büyük şirketlerin elinde. Facebook, Google, Amazon gibi firmalar kullanıcı verilerini topluyor, analiz ediyor ve genellikle bu veriler üzerinden para kazanıyor.
+
+ Özellikler:
+
+Kullanıcı etkileşimi ve içerik üretimi
+
+Sosyal medya, bloglar, forumlar
+
+Dinamik ve güncellenebilir web sayfaları
+
+Yorum, beğeni, paylaşım gibi özellikler
+
+Veriler merkezi sunucularda (Facebook, Google vb.)
+
+ Örnekler:
+
+Facebook, Instagram, Twitter
+
+YouTube, TikTok
+
+Wikipedia, Blogger, Medium
+
+Amazon, eBay, Hepsiburada gibi e-ticaret siteleri
+
+
+
+ Web 3.0 – Akıllı, Güvenli ve Merkeziyetsiz Web 
+
+Web 3.0, internetin üçüncü ve gelecekteki evresidir. Bu dönemde amaç, kullanıcılara daha fazla kontrol ve gizlilik sağlamak, aynı zamanda interneti daha "akıllı" hale getirmektir.
+
+Web 3.0’ın temelinde merkeziyetsizlik  ve blockchain teknolojisi vardır. Yani, veriler artık Facebook, Google gibi dev şirketlerin elinde değil; dağıtılmış sistemlerde, yani herkesin katkıda bulunabildiği ağlarda tutulur. Bu sayede hem daha güvenli hem de daha şeffaf bir yapı oluşur.
+
+Ayrıca yapay zeka sayesinde internet, kullanıcıların ne istediğini daha iyi anlayacak ve ona göre içerik sunacaktır. Web 3.0, kullanıcıların kendi dijital kimliğine ve verilerine sahip olmasını sağlayacak. Örneğin bir platformda oluşturduğun profil veya dijital varlıklar, senin kontrolünde olacak ve başka platformlara da taşınabilecek.
+
+ Özellikler:
+
+Merkeziyetsiz yapı 
+
+Veri kontrolü kullanıcılarda
+
+Yapay zeka ve makine öğrenmesi ile kişiselleştirme
+
+Güvenli, şeffaf, kullanıcı odaklı sistemler
+
+Dijital kimlik ve varlıkların sahibi kullanıcıdır
+
+ Örnekler:
+
+Ethereum, Solana gibi blockchain platformları
+
+NFT ve kripto para uygulamaları
+
+Web3 tabanlı sosyal medya 
+
+Decentralized Finance  sistemleri
+
