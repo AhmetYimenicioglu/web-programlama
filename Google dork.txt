@@ -1,0 +1,92 @@
+Google Dork, Google’ın gelişmiş arama operatörlerini kullanarak, genellikle internet üzerindeki hassas verilere erişim sağlamak veya güvenlik açıklarını keşfetmek amacıyla yapılan arama türüdür. Google Dorking, siber güvenlik alanında genellikle bir web sitesindeki açıklar veya güvenlik zaafiyetlerini keşfetmek için kullanılır. Google’ın sunduğu arama operatörleri, kullanıcıların sadece belirli veri tiplerini bulmasına veya belirli özelliklere sahip sayfaları aramasına olanak tanır.
+
+Google Dorking Nasıl Çalışır?
+
+Google, her web sayfasını bir dizi index ile tarar ve belirli kriterlere göre sıralar. Google Dorking, bu index’leri kullanarak belirli veri türlerini ve güvenlik açıklarını aramayı amaçlar. Örneğin, bir hacker Google’ın arama motoruna belirli terimler girerek, internet üzerinde bir şirketin iç veritabanlarına, parola dosyalarına veya gizli sayfalara ulaşmayı hedefleyebilir.
+
+Google Dorking ile Yapılabilecekler 
+
+Veritabanı ve Dosya Sızıntıları
+
+Özel, hassas veritabanları veya dosyalar aramak mümkündür. Örneğin, belirli dosya uzantıları arayarak, PDF, Excel, txt dosyalarını bulmak mümkündür.
+
+Örnek dork:
+
+filetype:pdf "confidential" – Bu komut, “confidential” kelimesi geçen PDF dosyalarını arar.
+
+filetype:xls inurl:"password" – Bu komut, içinde "password" geçen Excel dosyalarını arar.
+
+Web Uygulama Açıkları
+
+Google Dorking, yanlış yapılandırılmış bir web uygulamasını tespit etmek için kullanılabilir. Örneğin, açık bir login formu veya iddia edilen zayıf yapılandırma bilgileri aranabilir.
+
+Örnek dork:
+
+intitle:"index of" "password" – Bu komut, şifre bilgileri içerebilecek web sayfalarını arar.
+
+inurl:"/admin" – Bu komut, admin paneline veya giriş sayfasına dair URL’leri arar.
+
+Özel Bilgi Arama
+
+Hackerlar, Google Dorking kullanarak genellikle firma içi gizli belgeleri veya özel bilgileri keşfederler. Mesela, yazılımların yanlış yapılandırılması nedeniyle, uygulama dokümantasyonları veya kullanıcı yönetim sistemleri internette açık şekilde yayınlanmış olabilir.
+
+Örnek dork:
+
+inurl:"/admin/login" filetype:php – PHP dosyalarını arar ve admin giriş sayfalarını bulur.
+
+FTP Sunucuları ve Yedekleme Dosyaları
+
+Hatalı konfigüre edilmiş FTP sunucuları veya yedekleme dosyaları da Google Dorking ile bulunabilir.
+
+Örnek dork:
+
+intitle:"index of" "ftp" – FTP dizinlerini arar.
+
+Sensitive System Configurations 
+
+Google’ın tarama motoru, sistem konfigürasyon dosyalarını da indeksleyebilir. Bu, bir saldırganın sistem hakkında bilgi edinmesini sağlar.
+
+Örnek dork:
+
+filetype:conf "password" – Konfigürasyon dosyalarında şifre kelimesini arar.
+
+Kötü Amaçlı Yazılım ve Shell Dosyaları
+
+Kötü amaçlı yazılım barındıran siteler veya zararlı dosyalar aramak için Google Dorking kullanılabilir.
+
+Örnek dork:
+
+inurl:"cmd.exe" – Windows komut dosyası veya komut satırına dair URL’leri arar.
+
+Google Dork Kullanarak Yapılabilecek Diğer Güvenlik Testleri
+
+Web Sayfası Çerçevesi ve Yapısı Üzerine Keşif:
+
+Google’ın indexlediği sayfalarda, site yapısı, bağlantılar, kullanıcı adı ve şifre formları gibi yapılar keşfedilebilir.
+
+Hedef Web Sitesindeki Açıklar:
+
+Hedef alınan web sitesi üzerinde, SQL injection, XSS gibi açıklara yönelik bilgi toplanabilir.
+
+Gizli Yönetici Alanlarına Erişim:
+
+Google Dorking ile sitenin admin paneline veya yönetici alanına dair bilgi aramak mümkündür. Bu, genellikle yanlış yapılandırılmış içeriklerle ortaya çıkar.
+
+Ağ veya Sistem Bilgilerini Toplama:
+
+Birçok sistem, ağ veya web sunucu bilgilerini yanlışlıkla internette yayınlayabilir. Bu da Google Dorking ile bulunabilir.
+
+Örnek Google Dork'ler
+
+intitle:"index of" "backup" – Yedek dosyaları arar.
+
+filetype:bak inurl:"password" – Şifre içeren yedek dosyalarını arar.
+
+inurl:".env" "DB_PASSWORD" – Çevresel değişken dosyalarını (genellikle veritabanı şifresi içerir) arar.
+
+inurl:"phpinfo.php" – PHP yapılandırma sayfasını arar (bu sayfa çok değerli sistem bilgileri içerir).
+
+
+Özeti
+
+Google Dorking, siber güvenlik uzmanları için değerli bir araçtır, ancak yanlış ellerde büyük riskler oluşturabilir. Bu nedenle, etik bir şekilde ve yasal çerçeveler içinde kullanılmalıdır. Bu tür araçlar, zafiyetleri ortaya çıkarmak ve bunlara çözüm üretmek amacıyla faydalıdır.
